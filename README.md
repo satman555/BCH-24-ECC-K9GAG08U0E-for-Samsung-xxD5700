@@ -1,8 +1,8 @@
 # BCH-24-ECC-K9GAG08U0E-for-Samsung-xxD5700
-Ich lerne C und habe hier einen Code, der ECC BCH für Nand Flash K9GAG08U0E für Samsung xxD5700 berechnen soll. Es berechnet auch ECC pro 42 Bytes, aber das Ergebnis stimmt nicht mit der Dump-Datei überein. Deshalb suche ich Hilfe, die sich meinen Code anschauen und die Fehler finden kann.
-Ich kompiliere das Programm wie folgt: gcc -o bch.c bch_lib.c
-Info zu Hardware: 
+I am learning C and I have a code here that is supposed to calculate ECC BCH for Nand Flash K9GAG08U0E for Samsung xxD5700. It also calculates ECC per 42 bytes, but the result does not match the dump file. So I'm looking for help who can look at my code and find the errors.
+I compile the programme as follows: gcc -o bch.c bch_lib.c
+Info about hardware: 
 Nand Flash: K9GAG08U0E-SCB0
 CPU: SEMS-21
-Nand Flash Main Area 8192, aufgeteilt in 8 Teile zu je 1024 Byte. Verwendet wird ECC Code BCH-24, also erkannt/korrigiert bis 24 Bit-Fehler pro 1024 Bytes.
-Die Größe des Spare-Bereichs beträgt 436 Byte, die Größe des ECC-Codes beträgt 42 Byte für 1024 Byte Daten.
+Nand Flash Main Area 8192, divided into 8 parts of 1024 bytes each. ECC code BCH-24 is used, i.e. recognises/corrects up to 24 bit errors per 1024 bytes.
+The size of the spare area is 436 bytes, the size of the ECC code is 42 bytes for 1024 bytes of data.
