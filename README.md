@@ -5,3 +5,4 @@ Info zu Hardware:
 Nand Flash: K9GAG08U0E-SCB0
 CPU: SEMS-21
 Nand Flash Main Area 8192, aufgeteilt in 8 Teile zu je 1024 Byte. Verwendet wird ECC Code BCH-24, also erkannt/korrigiert bis 24 Bit-Fehler pro 1024 Bytes.
+Die Größe des Spare-Bereichs beträgt 436 Byte, die Größe des ECC-Codes beträgt 42 Byte für 1024 Byte Daten.
